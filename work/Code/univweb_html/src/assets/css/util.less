@@ -1,0 +1,36 @@
+.alertForm(@leftW, @rightW, @textareaH) {
+    .form {
+        padding: 30px 0;
+        .red {
+            color: #ff0000;
+        }
+        .form-item {
+            margin-bottom: 20px;
+            .title {
+                line-height: 34px;
+                width: @leftW;
+                text-align: right;
+                float: left;
+                font-size: 14px;
+                color: #666;
+            }
+            .msg {
+                line-height: 34px;
+                width: @rightW;
+                margin-left: @leftW + 8px;
+                text-align: left;
+                font-size: 14px;
+                color: #333;
+                .el-textarea {
+                    height: @textareaH;
+                }
+                &.btn {
+                    padding-top: 10px;
+                }
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

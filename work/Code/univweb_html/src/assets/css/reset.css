@@ -1,0 +1,79 @@
+/* 以下是公共样式 */
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:'微软雅黑', 'Microsoft Yahei', sans-serif;
+    background: #fff;
+    -webkit-text-size-adjust: 100%;
+}
+html,body,#app {
+    height: 100%;
+    /* max-width: 750px;no */
+    margin:0 auto;
+}
+#app {
+    position: relative;
+    overflow-x: hidden;
+}
+em {
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+img {
+    border: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+p {
+    word-wrap: break-word;
+}
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.clearfix{
+    zoom:1;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+.hidde-txt {box-sizing: border-box;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
